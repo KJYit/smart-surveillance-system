@@ -1,0 +1,23 @@
+# Smart Surveillance System — Python dependencies
+# Tested with Python 3.10+
+ 
+# Web dashboard
+streamlit>=1.30.0
+ 
+# M2 (YOLOv8 person detection) + M4-B (YOLOv8-pose)
+ultralytics>=8.0.0
+ 
+# M3 (DeepSORT person tracking)
+deep-sort-realtime>=1.3.2
+ 
+# Video I/O and frame processing
+opencv-python>=4.8.0
+ 
+# Deep learning runtime (CNN+LSTM legacy + Skeleton-Transformer)
+torch>=2.0.0
+ 
+# Numerical computing (feature extraction, M4-B normalisation stats)
+numpy>=1.24.0
+ 
+# Scientific utilities (used by deep-sort-realtime internals)
+scipy>=1.10.0

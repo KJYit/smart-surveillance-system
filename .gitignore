@@ -1,0 +1,33 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Datasets and Heavy Raw Data (Exclude from Git to prevent limits/bloat)
+Anomaly_Videos/
+LLVIP/
+M4B_clips/
+M4B_skeleton_clips/
+M4B_skeleton_clips_v2/
+MOT17/
+darkCondition/
+darkCondition_yolo/
+evaluationDataset/
+
+# Ignore outputs that could be too heavy
+notebook/outputs/
+
+# Note: The 'video/' directory contains TownCentreXVID.mp4 (~86MB). 
+# It is under GitHub's 100MB limit, so I am allowing it through to keep the test environment intact.
+# The 'notebook/runs' and `.pt` files are also allowed through so your Streamlit app weights are pushed.
