@@ -1,0 +1,5 @@
+path: C:\Users\jingy\OneDrive\Desktop\FYP\notebook\runs\darkCondition_yolo
+train: images/train
+val: images/val
+names:
+  0: person
