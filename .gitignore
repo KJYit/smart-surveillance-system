@@ -21,8 +21,6 @@ M4B_clips/
 M4B_skeleton_clips/
 M4B_skeleton_clips_v2/
 MOT17/
-darkCondition/
-darkCondition_yolo/
 evaluationDataset/
 
 # Ignore outputs that could be too heavy
