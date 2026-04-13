@@ -151,13 +151,13 @@ The system ships with an interactive **Streamlit** dashboard (`app.py`) that pro
 
    ```bash
    git clone https://github.com/KJYit/smart-surveillance-system
-   cd FYP-2
+   cd smart-surveillance-system
    ```
 
 2. **Create a virtual environment (recommended):**
 
    ```bash
-   python -m venv .venv
+   py -m venv .venv
 
    # Windows
    .venv\Scripts\activate
