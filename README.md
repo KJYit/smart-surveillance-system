@@ -204,8 +204,10 @@ The default installation uses CPU-only PyTorch for maximum compatibility.
 If you have an NVIDIA GPU with CUDA support and want real-time performance,
 install the CUDA build of PyTorch *after* running `pip install -r requirements.txt`:
 
+```bash
 # For CUDA 12.1 (check your CUDA version with `nvidia-smi`)
 pip install torch --index-url https://download.pytorch.org/whl/cu121 --upgrade
+```
 
 ---
 
